@@ -13,6 +13,7 @@ import {
   SiMysql,
   SiMongodb,
   SiJinja,
+  SiPostgresql,
 } from "react-icons/si";
 
 const skillGroups = [
@@ -23,6 +24,7 @@ const skillGroups = [
       { id: 2, name: "Java", icon: <FaJava className="text-red-600" /> },
       { id: 3, name: "C", icon: <span className="text-2xl font-mono text-blue-500">C</span> },
       { id: 4, name: "JavaScript", icon: <FaJsSquare className="text-yellow-300" /> },
+      { id: 5, name: "SQL", icon: <span className="text-2xl font-bold text-white">SQL</span> }, // ✅ moved here
     ],
   },
   {

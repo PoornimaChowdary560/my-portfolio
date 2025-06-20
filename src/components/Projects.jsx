@@ -28,7 +28,7 @@ const Projects = () => {
       repo: [
         { label: "GitHub Repo", url: "https://github.com/PoornimaChowdary560/petpal" },
       ],
-      demo: "https://web-production-1928.up.railway.app/",
+      demo: "https://petpal-1.onrender.com",
     },
     {
       id: 2,
