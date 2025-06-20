@@ -48,6 +48,7 @@ const skillGroups = [
     skills: [
       { id: 11, name: "MySQL", icon: <SiMysql className="text-blue-600" /> },
       { id: 12, name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
+      { id: 14, name: "PostgreSQL", icon: <SiPostgresql className="text-indigo-400" /> },
     ],
   },
 ];
