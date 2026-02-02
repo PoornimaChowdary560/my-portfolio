@@ -86,7 +86,7 @@ const Hero = () => {
             <span className="block text-white text-xl sm:text-2xl md:text-3xl mt-2">
   <Typewriter
     words={[
-      "Full-Stack Developer",
+      "Backend Developer",
       "Backend with Django",
       "Frontend Designer",
     ]}

@@ -28,7 +28,7 @@ const Projects = () => {
       id: 1,
       title: "PetPal Adoption",
       description:
-        "A full-stack pet adoption platform built with Django, React, and MySQL. Features include pet listings, adoption requests, and dynamic messages display.",
+        "A Django-based backend for a pet adoption platform with MySQL, handling pet listings, adoption requests, and real-time messaging APIs.",
       tech: ["Django", "Jinja", "MySQL"],
       repo: [
         { label: "GitHub Repo", url: "https://github.com/PoornimaChowdary560/petpal" },
@@ -39,7 +39,7 @@ const Projects = () => {
       id: 2,
       title: "AI Bias Detector",
       description:
-        "An AI-powered tool that detects bias in datasets using React frontend and Django REST API backend.",
+        "A Django REST API backend for an AI-powered tool that analyzes datasets and detects bias using demographic metrics.",
       tech: ["React", "Django", "Python", "MySQL", "DRF"],
       repo: [
         { label: "Backend Repo", url: "https://github.com/PoornimaChowdary560/backend" },
@@ -51,7 +51,7 @@ const Projects = () => {
       id: 3,
       title: "Student Results Management System",
       description:
-        "A full-stack Student Results Management System built with Django REST and React, featuring role-based access, exam scheduling, result publishing, and performance analytics.",
+        "A Django REST API backend for a Student Results Management System, handling role-based access, exam scheduling, result publishing, and performance analytics.",
       tech: ["React", "Django", "Python","PostgreSQL", "DRF"],
       repo: [
         { label: "Backend Repo", url: "https://github.com/PoornimaChowdary560/SRMS-backend" },
@@ -63,7 +63,7 @@ const Projects = () => {
       id: 4,
       title: "Email Classifier",
       description:
-        "An email classification system built with Python and machine learning to detect spam and non-spam emails using NLP techniques.",
+        "A Django backend integrating an existing ML model to classify emails as spam or non-spam, exposing predictions via REST APIs.",
       tech: ["React", "Django", "Python", "PostgreSQL", "DRF","Machine Learning", "NLP"],
       repo: [
         { label: "Backend Repo", url: "https://github.com/PoornimaChowdary560/email_classifier_backend" },
@@ -75,7 +75,7 @@ const Projects = () => {
       id: 5,
       title: "Bookmanager",
       description:
-        "A book management system that allows users to add, update, search, and manage books with a clean and user-friendly interface.",
+        "A Django backend for a book management system, handling CRUD operations, search functionality, and secure data management.",
       tech: ["Django", "MySQL"],
       repo: [
         { label: "GitHub Repo", url: "https://github.com/PoornimaChowdary560/bookmanager" },

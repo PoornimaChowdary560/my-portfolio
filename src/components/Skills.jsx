@@ -9,11 +9,7 @@ import {
 } from "react-icons/fa";
 import {
   SiDjango,
-  SiTailwindcss,
   SiMysql,
-  SiMongodb,
-  SiJinja,
-  SiPostgresql,
 } from "react-icons/si";
 
 const skillGroups = [
@@ -23,32 +19,29 @@ const skillGroups = [
       { id: 1, name: "Python", icon: <FaPython className="text-yellow-400" /> },
       { id: 2, name: "Java", icon: <FaJava className="text-red-600" /> },
       { id: 3, name: "C", icon: <span className="text-2xl font-mono text-blue-500">C</span> },
-      { id: 4, name: "JavaScript", icon: <FaJsSquare className="text-yellow-300" /> },
+      { id: 4, name: "JavaScript basics", icon: <FaJsSquare className="text-yellow-300" /> },
       { id: 5, name: "SQL", icon: <span className="text-2xl font-bold text-white">SQL</span> }, // ✅ moved here
     ],
   },
   {
-    groupName: "Markup & Styling",
+    groupName: "Markup & Styling Basics",
     skills: [
-      { id: 5, name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
-      { id: 6, name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
-      { id: 7, name: "TailwindCSS", icon: <SiTailwindcss className="text-teal-400" /> },
-      { id: 8, name: "Jinja", icon: <SiJinja className="text-orange-400" /> },
+      { id: 6, name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
+      { id: 7, name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
+
     ],
   },
   {
     groupName: "Frameworks & Libraries",
     skills: [
-      { id: 9, name: "Django", icon: <SiDjango className="text-green-600" /> },
-      { id: 10, name: "React", icon: <FaReact className="text-cyan-400" /> },
+      { id: 8, name: "Django", icon: <SiDjango className="text-green-600" /> },
+      { id: 9, name: "React basics", icon: <FaReact className="text-cyan-400" /> },
     ],
   },
   {
     groupName: "Databases",
     skills: [
-      { id: 11, name: "MySQL", icon: <SiMysql className="text-blue-600" /> },
-      { id: 12, name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
-      { id: 14, name: "PostgreSQL", icon: <SiPostgresql className="text-indigo-400" /> },
+      { id: 10, name: "MySQL", icon: <SiMysql className="text-blue-600" /> },
     ],
   },
 ];
