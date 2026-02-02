@@ -17,12 +17,14 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-blue-400">About Me</h2>
           <p className="text-lg text-gray-300 leading-relaxed">
             Hello! I'm <span className="text-blue-300 font-semibold">Poornima Maddipati</span>, a passionate
-            and detail-oriented full-stack developer who enjoys building interactive and modern web
-            applications. I love turning ideas into real products that solve real problems.
+            and detail-oriented backend developer who enjoys building scalable and efficient server-side
+            systems. I love designing robust APIs, managing databases, and turning complex logic into
+            reliable software solutions.
           </p>
           <p className="text-lg text-gray-400 mt-6">
-            I specialize in React, Django, and REST APIs, with strong UI/UX sensibilities. I'm
-            always learning and love to collaborate on meaningful projects.
+            I specialize in Python, Django, and REST APIs, with a strong focus on backend architecture,
+            security, and optimization. Currently, I'm exploring Agentic AI and its applications in building
+            intelligent, autonomous systems. I'm always learning and enjoy collaborating on impactful projects.
           </p>
         </motion.div>
 
