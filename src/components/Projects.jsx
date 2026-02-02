@@ -7,14 +7,19 @@ import {
   SiReact,
   SiPython,
   SiJinja,
+  SiPostgresql,
 } from "react-icons/si";
+import { FaBrain, FaLanguage } from "react-icons/fa";
 
 const techIconMap = {
   Django: <SiDjango className="text-green-400 text-xl" />,
   MySQL: <SiMysql className="text-blue-300 text-xl" />,
+  PostgreSQL: <SiPostgresql className="text-blue-300 text-xl" />,
   React: <SiReact className="text-cyan-300 text-xl" />,
   Python: <SiPython className="text-yellow-300 text-xl" />,
   Jinja: <SiJinja className="text-orange-400 text-xl" />,
+  "Machine Learning": <FaBrain className="text-pink-400 text-xl" />,
+  NLP: <FaLanguage className="text-purple-400 text-xl" />,
 };
 
 const Projects = () => {
@@ -37,10 +42,44 @@ const Projects = () => {
         "An AI-powered tool that detects bias in datasets using React frontend and Django REST API backend.",
       tech: ["React", "Django", "Python", "MySQL", "DRF"],
       repo: [
-        { label: "Frontend Repo", url: "https://github.com/PoornimaChowdary560/frontend" },
         { label: "Backend Repo", url: "https://github.com/PoornimaChowdary560/backend" },
+        { label: "Frontend Repo", url: "https://github.com/PoornimaChowdary560/frontend" },
       ],
       demo: "https://ai-bias-detector-flax.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "Student Results Management System",
+      description:
+        "A full-stack Student Results Management System built with Django REST and React, featuring role-based access, exam scheduling, result publishing, and performance analytics.",
+      tech: ["React", "Django", "Python","PostgreSQL", "DRF"],
+      repo: [
+        { label: "Backend Repo", url: "https://github.com/PoornimaChowdary560/SRMS-backend" },
+        { label: "Frontend Repo", url: "https://github.com/PoornimaChowdary560/SRMS-frontend" },
+      ],
+
+    },
+    {
+      id: 4,
+      title: "Email Classifier",
+      description:
+        "An email classification system built with Python and machine learning to detect spam and non-spam emails using NLP techniques.",
+      tech: ["React", "Django", "Python", "PostgreSQL", "DRF","Machine Learning", "NLP"],
+      repo: [
+        { label: "Backend Repo", url: "https://github.com/PoornimaChowdary560/email_classifier_backend" },
+        { label: "Frontend Repo", url: "https://github.com/PoornimaChowdary560/email_classifier_frontend" },
+      ],
+
+    },
+    {
+      id: 5,
+      title: "Bookmanager",
+      description:
+        "A book management system that allows users to add, update, search, and manage books with a clean and user-friendly interface.",
+      tech: ["Django", "MySQL"],
+      repo: [
+        { label: "GitHub Repo", url: "https://github.com/PoornimaChowdary560/bookmanager" },
+      ],
     },
   ];
 
